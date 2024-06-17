@@ -1,4 +1,4 @@
-package com.maxiflexy.studentportal_demo.entity;
+package com.maxiflexy.studentportal_demo.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,7 +20,8 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
-
+    private String firstName;
+    private String lastName;
+    private String email;
 
 }
