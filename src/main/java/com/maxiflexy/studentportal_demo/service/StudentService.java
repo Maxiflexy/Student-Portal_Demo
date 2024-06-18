@@ -9,5 +9,7 @@ public interface StudentService {
 
     List<Student> getAllStudents();
 
+    Student saveStudents(Student student);
+
 
 }
